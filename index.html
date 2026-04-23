@@ -3,426 +3,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Free personalized macro calculator for keto, bodybuilding, fat loss, CrossFit, and 4 other fitness niches. Science-backed nutrition tailored to your goals.">
-    <meta name="keywords" content="macro calculator, keto macros, bodybuilding nutrition, fitness macros, cutting diet, muscle gain, CrossFit nutrition, endurance sports nutrition">
-    <meta property="og:title" content="MacroCalc Pro - Personalized Macro Calculator">
-    <meta property="og:description" content="Get custom macronutrients for your specific fitness niche. Free. Instant. Science-backed.">
+
+    <!-- Primary SEO -->
+    <title>Free Macro Calculator | Keto, Bodybuilding, Fat Loss & More | MacroCalc Pro</title>
+    <meta name="description" content="Free personalized macro calculator for keto, bodybuilding, fat loss, CrossFit, endurance, vegan, athletic and general fitness. Get your exact protein, carbs and fat targets in seconds. Science-backed. No sign-up needed.">
+    <meta name="keywords" content="macro calculator, free macro calculator, keto macro calculator, bodybuilding macro calculator, fat loss macro calculator, CrossFit nutrition calculator, endurance sports nutrition, vegan macro calculator, IIFYM calculator, macronutrient calculator, protein calculator, cutting macros, bulking macros">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="MacroCalc Pro">
+    <link rel="canonical" href="https://www.macrocalc.co.uk/">
+
+    <!-- Open Graph (social sharing) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.macrocalc.co.uk/">
+    <meta property="og:title" content="Free Macro Calculator for Your Fitness Niche | MacroCalc Pro">
+    <meta property="og:description" content="Get personalized macronutrient targets in seconds. Keto, bodybuilding, fat loss, CrossFit, endurance, vegan and more. Free. Science-backed. No sign-up needed.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&h=630&fit=crop">
-    <title>MacroCalc Pro - Personalized Macro Calculator</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8935274984783226"
-        crossorigin="anonymous"></script>
+    <meta property="og:site_name" content="MacroCalc Pro">
+    <meta property="og:locale" content="en_GB">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Macro Calculator for Your Fitness Niche | MacroCalc Pro">
+    <meta name="twitter:description" content="Get personalized macronutrient targets in seconds. Free. Science-backed. No sign-up needed.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&h=630&fit=crop">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "MacroCalc Pro",
+      "url": "https://www.macrocalc.co.uk",
+      "description": "Free personalized macro calculator for keto, bodybuilding, fat loss, CrossFit, endurance, vegan and athletic performance niches.",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "GBP"
+      },
+      "featureList": [
+        "Keto macro calculator",
+        "Bodybuilding macro calculator",
+        "Fat loss macro calculator",
+        "CrossFit nutrition calculator",
+        "Endurance sports macro calculator",
+        "Vegan macro calculator",
+        "Athletic performance nutrition calculator",
+        "General fitness macro calculator"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How accurate are these macro calculations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our calculator uses the Mifflin-St Jeor equation, the gold standard for estimating daily caloric needs. Individual results may vary based on metabolism, genetics, and training history."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change my macros later?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We recommend recalculating every 4-8 weeks or whenever your weight changes by more than 5 lbs, as your body adapts over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this macro calculator suitable for beginners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our calculator works for all experience levels, from complete beginners to elite athletes. We adjust macro ratios based on your activity level and specific niche goal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does my fitness niche matter for macros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Different training styles have very different nutritional demands. A keto dieter needs 70% fat and minimal carbs, while an endurance athlete needs 55%+ carbs for sustained energy. Generic calculators miss this entirely."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8935274984783226" crossorigin="anonymous"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
-            color: #ffffff;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Header */
-        header {
-            padding: 20px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .logo {
-            font-size: 28px;
-            font-weight: bold;
-            background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        /* Hero Section */
-        .hero {
-            padding: 80px 0;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 64px;
-            font-weight: 800;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-
-        .hero p {
-            font-size: 24px;
-            color: #cbd5e1;
-            margin-bottom: 40px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
-            color: white;
-            padding: 16px 48px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: 600;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);
-        }
-
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 15px 40px rgba(6, 182, 212, 0.4);
-        }
-
-        /* Features Section */
-        .features {
-            padding: 80px 0;
-            background: rgba(30, 41, 59, 0.5);
-            margin: 80px 0;
-            border-radius: 16px;
-        }
-
-        .features h2 {
-            font-size: 48px;
-            margin-bottom: 60px;
-            text-align: center;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-        }
-
-        .feature-card {
-            background: rgba(15, 23, 42, 0.6);
-            border: 1px solid rgba(6, 182, 212, 0.2);
-            padding: 40px 30px;
-            border-radius: 12px;
-            text-align: center;
-            transition: all 0.3s;
-        }
-
-        .feature-card:hover {
-            border-color: rgba(6, 182, 212, 0.6);
-            background: rgba(15, 23, 42, 0.8);
-            transform: translateY(-5px);
-        }
-
-        .feature-icon {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-
-        .feature-card h3 {
-            font-size: 20px;
-            margin-bottom: 12px;
-        }
-
-        .feature-card p {
-            color: #cbd5e1;
-            font-size: 14px;
-        }
-
-        /* Niches Section */
-        .niches {
-            padding: 80px 0;
-        }
-
-        .niches h2 {
-            font-size: 48px;
-            margin-bottom: 60px;
-            text-align: center;
-        }
-
-        .niches-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
-
-        .niche-badge {
-            background: rgba(30, 41, 59, 0.8);
-            border: 1px solid rgba(6, 182, 212, 0.3);
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-            transition: all 0.3s;
-        }
-
-        .niche-badge:hover {
-            border-color: rgba(6, 182, 212, 0.8);
-            background: rgba(6, 182, 212, 0.1);
-        }
-
-        .niche-badge .icon {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        .niche-badge p {
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        /* FAQ Section */
-        .faq {
-            padding: 80px 0;
-            background: rgba(30, 41, 59, 0.5);
-            border-radius: 16px;
-            margin: 80px 0;
-        }
-
-        .faq h2 {
-            font-size: 48px;
-            margin-bottom: 60px;
-            text-align: center;
-        }
-
-        .faq-item {
-            margin-bottom: 30px;
-            background: rgba(15, 23, 42, 0.6);
-            padding: 25px;
-            border-radius: 8px;
-            border-left: 3px solid #06b6d4;
-        }
-
-        .faq-item h3 {
-            font-size: 18px;
-            margin-bottom: 12px;
-            color: #06b6d4;
-        }
-
-        .faq-item p {
-            color: #cbd5e1;
-            line-height: 1.8;
-        }
-
-        /* Footer */
-        footer {
-            padding: 40px 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            text-align: center;
-            color: #94a3b8;
-        }
-
-        /* Responsive */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); color: #fff; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        header { padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .logo { font-size: 28px; font-weight: bold; background: linear-gradient(135deg, #06b6d4, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero { padding: 80px 0; text-align: center; }
+        .hero h1 { font-size: 64px; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }
+        .hero p { font-size: 22px; color: #cbd5e1; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .cta-button { display: inline-block; background: linear-gradient(135deg, #06b6d4, #3b82f6); color: white; padding: 16px 48px; border-radius: 8px; font-size: 18px; font-weight: 600; border: none; cursor: pointer; text-decoration: none; transition: all 0.3s; box-shadow: 0 10px 30px rgba(6,182,212,0.3); }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 15px 40px rgba(6,182,212,0.4); }
+        .features { padding: 80px 0; background: rgba(30,41,59,0.5); margin: 60px 0; border-radius: 16px; }
+        .features h2, .niches h2, .faq h2 { font-size: 42px; margin-bottom: 50px; text-align: center; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; }
+        .feature-card { background: rgba(15,23,42,0.6); border: 1px solid rgba(6,182,212,0.2); padding: 35px 25px; border-radius: 12px; text-align: center; transition: all 0.3s; }
+        .feature-card:hover { border-color: rgba(6,182,212,0.6); transform: translateY(-4px); }
+        .feature-icon { font-size: 44px; margin-bottom: 16px; }
+        .feature-card h3 { font-size: 18px; margin-bottom: 10px; }
+        .feature-card p { color: #cbd5e1; font-size: 14px; }
+        .niches { padding: 60px 0; }
+        .niches-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+        .niche-badge { background: rgba(30,41,59,0.8); border: 1px solid rgba(6,182,212,0.3); padding: 20px; border-radius: 12px; text-align: center; transition: all 0.3s; }
+        .niche-badge:hover { border-color: rgba(6,182,212,0.8); background: rgba(6,182,212,0.1); }
+        .niche-badge .icon { font-size: 36px; margin-bottom: 8px; }
+        .niche-badge p { font-size: 13px; font-weight: 600; }
+        .faq { padding: 80px 0; background: rgba(30,41,59,0.5); border-radius: 16px; margin: 60px 0; }
+        .faq-item { margin-bottom: 24px; background: rgba(15,23,42,0.6); padding: 24px; border-radius: 8px; border-left: 3px solid #06b6d4; }
+        .faq-item h3 { font-size: 17px; margin-bottom: 10px; color: #06b6d4; }
+        .faq-item p { color: #cbd5e1; line-height: 1.8; }
+        footer { padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; color: #94a3b8; }
+        .ad-space { margin: 40px 0; text-align: center; min-height: 90px; }
+        #calc-section { display: none; padding: 50px 0; }
+        .back-btn { background: none; border: none; color: #06b6d4; cursor: pointer; font-size: 15px; margin-bottom: 30px; display: flex; align-items: center; gap: 6px; }
+        .back-btn:hover { color: #3b82f6; }
+        .calc-step { display: none; }
+        .calc-step.active { display: block; animation: fadeIn 0.3s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .step-title { font-size: 36px; font-weight: 800; text-align: center; margin-bottom: 12px; }
+        .step-subtitle { text-align: center; color: #94a3b8; margin-bottom: 40px; font-size: 16px; }
+        .niche-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+        .niche-btn { background: rgba(30,41,59,0.8); border: 2px solid rgba(6,182,212,0.25); color: white; padding: 28px 20px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.3s; }
+        .niche-btn:hover { border-color: #06b6d4; background: rgba(6,182,212,0.1); transform: translateY(-4px); box-shadow: 0 10px 25px rgba(6,182,212,0.15); }
+        .niche-btn .emoji { font-size: 42px; display: block; margin-bottom: 12px; }
+        .niche-btn .name { font-size: 15px; font-weight: 700; display: block; }
+        .niche-btn .desc { font-size: 12px; color: #94a3b8; margin-top: 6px; display: block; }
+        .form-wrap { max-width: 680px; margin: 0 auto; background: rgba(30,41,59,0.8); border: 1px solid rgba(6,182,212,0.2); padding: 40px; border-radius: 16px; }
+        .selected-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(6,182,212,0.15); border: 1px solid rgba(6,182,212,0.4); padding: 6px 14px; border-radius: 20px; font-size: 13px; margin-bottom: 28px; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .form-group { display: flex; flex-direction: column; }
+        .form-group.full { grid-column: 1 / -1; }
+        label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #94a3b8; margin-bottom: 8px; }
+        input[type="number"], select { padding: 12px 14px; background: rgba(15,23,42,0.8); border: 1px solid rgba(6,182,212,0.3); border-radius: 8px; color: white; font-size: 15px; width: 100%; transition: all 0.2s; }
+        input[type="number"]:focus, select:focus { outline: none; border-color: #06b6d4; box-shadow: 0 0 0 3px rgba(6,182,212,0.1); }
+        select option { background: #1e293b; }
+        .submit-btn { width: 100%; padding: 15px; background: linear-gradient(135deg, #06b6d4, #3b82f6); color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: 700; cursor: pointer; margin-top: 10px; transition: all 0.3s; }
+        .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(6,182,212,0.3); }
+        .results-wrap { max-width: 800px; margin: 0 auto; }
+        .results-niche { text-align: center; margin-bottom: 30px; font-size: 18px; color: #94a3b8; }
+        .results-niche span { color: #06b6d4; font-weight: 700; }
+        .macro-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 35px; }
+        .macro-card { background: linear-gradient(135deg, #06b6d4, #3b82f6); padding: 24px 16px; border-radius: 14px; text-align: center; }
+        .macro-card .m-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.75); margin-bottom: 8px; }
+        .macro-card .m-value { font-size: 38px; font-weight: 800; color: white; line-height: 1; }
+        .macro-card .m-unit { font-size: 12px; color: rgba(255,255,255,0.65); margin-top: 5px; }
+        .result-info { background: rgba(30,41,59,0.8); border: 1px solid rgba(6,182,212,0.2); border-radius: 14px; padding: 28px; margin-bottom: 24px; }
+        .result-info h3 { color: #06b6d4; font-size: 16px; margin-bottom: 12px; }
+        .result-info p { color: #cbd5e1; line-height: 1.8; font-size: 15px; }
+        .tip-box { background: rgba(6,182,212,0.08); border: 1px solid rgba(6,182,212,0.3); border-radius: 12px; padding: 20px; margin-bottom: 30px; }
+        .tip-box h3 { color: #06b6d4; font-size: 15px; margin-bottom: 8px; }
+        .tip-box p { color: #cbd5e1; font-size: 14px; line-height: 1.7; }
+        .result-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .btn-outline { padding: 13px; background: rgba(51,65,85,0.8); border: 1px solid rgba(6,182,212,0.3); color: white; border-radius: 8px; cursor: pointer; font-size: 15px; font-weight: 600; transition: all 0.3s; }
+        .btn-outline:hover { border-color: #06b6d4; background: rgba(6,182,212,0.1); }
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 48px;
-            }
-
-            .hero p {
-                font-size: 18px;
-            }
-
-            .features h2,
-            .niches h2,
-            .faq h2 {
-                font-size: 36px;
-            }
-
-            .niches-grid {
-                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            }
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .hero {
-            animation: fadeInUp 0.8s ease-out;
-        }
-
-        .feature-card {
-            animation: fadeInUp 0.8s ease-out;
-            animation-fill-mode: both;
-        }
-
-        .feature-card:nth-child(1) { animation-delay: 0.1s; }
-        .feature-card:nth-child(2) { animation-delay: 0.2s; }
-        .feature-card:nth-child(3) { animation-delay: 0.3s; }
-        .feature-card:nth-child(4) { animation-delay: 0.4s; }
-
-        /* Ad spaces */
-        .ad-space {
-            background: rgba(30, 41, 59, 0.5);
-            border: 1px dashed rgba(148, 163, 184, 0.3);
-            padding: 40px;
-            margin: 40px 0;
-            border-radius: 8px;
-            text-align: center;
-            color: #94a3b8;
-            font-size: 14px;
+            .hero h1 { font-size: 38px; }
+            .hero p { font-size: 17px; }
+            .macro-cards { grid-template-columns: repeat(2, 1fr); }
+            .form-grid { grid-template-columns: 1fr; }
+            .form-group.full { grid-column: 1; }
+            .result-btns { grid-template-columns: 1fr; }
+            .niche-grid { grid-template-columns: repeat(2, 1fr); }
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="logo">MacroCalc Pro</div>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
+<header>
+    <div class="container">
+        <div class="logo">MacroCalc Pro</div>
+    </div>
+</header>
+
+<!-- LANDING PAGE -->
+<div id="landing-page">
     <section class="hero">
         <div class="container">
             <h1>Macros for Your Fitness Niche</h1>
             <p>Get personalized macronutrient targets in seconds. Free. Science-backed. Tailored to your goals.</p>
-            <a href="/app" class="cta-button">Calculate Your Macros →</a>
+            <button class="cta-button" onclick="showCalc()">Calculate Your Macros →</button>
         </div>
     </section>
-
-    <!-- Ad Space 1 -->
-    <div class="ad-space">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Ad unit here -->
+    <div class="container">
+        <div class="ad-space">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8935274984783226" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
     </div>
-
-    <!-- Features Section -->
     <section class="features">
         <div class="container">
             <h2>Why MacroCalc?</h2>
             <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Instant Results</h3>
-                    <p>Get your customized macros in seconds, not hours of research</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Niche-Specific</h3>
-                    <p>Macros optimized for your specific fitness goal, not generic</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔬</div>
-                    <h3>Science-Backed</h3>
-                    <p>Based on proven formulas used by sports nutrition experts</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📥</div>
-                    <h3>Download PDF</h3>
-                    <p>Save your results and take them with you</p>
-                </div>
+                <div class="feature-card"><div class="feature-icon">⚡</div><h3>Instant Results</h3><p>Get your customized macros in seconds, not hours of research</p></div>
+                <div class="feature-card"><div class="feature-icon">🎯</div><h3>Niche-Specific</h3><p>Macros optimized for your specific fitness goal, not generic averages</p></div>
+                <div class="feature-card"><div class="feature-icon">🔬</div><h3>Science-Backed</h3><p>Based on the Mifflin-St Jeor equation used by sports nutrition experts</p></div>
+                <div class="feature-card"><div class="feature-icon">🆓</div><h3>Completely Free</h3><p>No sign-up, no email required. Just your macros, instantly</p></div>
             </div>
         </div>
     </section>
-
-    <!-- Niches Section -->
     <section class="niches">
         <div class="container">
             <h2>We Cover All Fitness Niches</h2>
             <div class="niches-grid">
-                <div class="niche-badge">
-                    <div class="icon">🥑</div>
-                    <p>Keto Diet</p>
-                </div>
-                <div class="niche-badge">
-                    <div class="icon">💪</div>
-                    <p>Bodybuilding</p>
-                </div>
-                <div class="niche-badge">
-                    <div class="icon">⚡</div>
-                    <p>Fat Loss</p>
-                </div>
-                <div class="niche-badge">
-                    <div class="icon">🏋️</div>
-                    <p>CrossFit</p>
-                </div>
-                <div class="niche-badge">
-                    <div class="icon">🏃</div>
-                    <p>Endurance</p>
-                </div>
-                <div class="niche-badge">
-                    <div class="icon">🌱</div>
-                    <p>Plant-Based</p>
-                </div>
-                <div class="niche-badge">
-                    <div class="icon">⚽</div>
-                    <p>Athletic Performance</p>
-                </div>
-                <div class="niche-badge">
-                    <div class="icon">✨</div>
-                    <p>General Fitness</p>
-                </div>
+                <div class="niche-badge"><div class="icon">🥑</div><p>Keto Diet</p></div>
+                <div class="niche-badge"><div class="icon">💪</div><p>Bodybuilding</p></div>
+                <div class="niche-badge"><div class="icon">⚡</div><p>Fat Loss</p></div>
+                <div class="niche-badge"><div class="icon">🏋️</div><p>CrossFit</p></div>
+                <div class="niche-badge"><div class="icon">🏃</div><p>Endurance</p></div>
+                <div class="niche-badge"><div class="icon">🌱</div><p>Plant-Based</p></div>
+                <div class="niche-badge"><div class="icon">⚽</div><p>Athletic Performance</p></div>
+                <div class="niche-badge"><div class="icon">✨</div><p>General Fitness</p></div>
             </div>
         </div>
     </section>
-
-    <!-- Ad Space 2 -->
-    <div class="ad-space">
-        <!-- Second ad unit here -->
+    <div class="container">
+        <div class="ad-space">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8935274984783226" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
     </div>
-
-    <!-- FAQ Section -->
     <section class="faq">
         <div class="container">
             <h2>Common Questions</h2>
-            
-            <div class="faq-item">
-                <h3>How accurate are these calculations?</h3>
-                <p>Our calculator uses the Mifflin-St Jeor equation, the gold standard for estimating daily caloric needs. Individual results may vary based on metabolism, genetics, and training history. We recommend tracking results for 2-3 weeks and adjusting as needed.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Can I change my macros later?</h3>
-                <p>Absolutely. Your body adapts over time. We recommend recalculating every 4-8 weeks or whenever your weight changes by more than 5 lbs.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Is this suitable for beginners?</h3>
-                <p>Yes! Our calculator works for all experience levels, from complete beginners to elite athletes. We adjust based on your activity level.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Do I need to count macros strictly?</h3>
-                <p>No. Think of these as targets, not rules. Most people find macro awareness helpful without obsessive tracking. Even hitting them within 10g is effective.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>Can I download my results?</h3>
-                <p>Yes. After you calculate your macros, you can download a PDF with your personalized recommendations.</p>
-            </div>
+            <div class="faq-item"><h3>How accurate are these calculations?</h3><p>Our calculator uses the Mifflin-St Jeor equation, the gold standard for estimating daily caloric needs. Individual results may vary based on metabolism, genetics, and training history. We recommend tracking results for 2-3 weeks and adjusting as needed.</p></div>
+            <div class="faq-item"><h3>Can I change my macros later?</h3><p>Absolutely. Your body adapts over time. We recommend recalculating every 4-8 weeks or whenever your weight changes by more than 5 lbs.</p></div>
+            <div class="faq-item"><h3>Is this suitable for beginners?</h3><p>Yes! Our calculator works for all experience levels, from complete beginners to elite athletes. We adjust macro ratios based on your activity level and specific niche goal.</p></div>
+            <div class="faq-item"><h3>Do I need to count macros strictly?</h3><p>No. Think of these as targets, not rules. Most people find macro awareness helpful without obsessive tracking. Even hitting them within 10g is effective.</p></div>
+            <div class="faq-item"><h3>Why does my niche matter for macros?</h3><p>Different training styles have very different nutritional demands. A keto dieter needs 70% fat and minimal carbs, while an endurance athlete needs 55%+ carbs for sustained energy. Generic calculators miss this entirely.</p></div>
         </div>
     </section>
-
-    <!-- Footer CTA -->
     <section class="hero">
         <div class="container">
-            <h2>Ready to Optimize Your Nutrition?</h2>
-            <p style="margin-bottom: 30px;">Join thousands of people getting personalized macros for their fitness goals.</p>
-            <a href="/app" class="cta-button">Get Started Free →</a>
+            <h2 style="font-size:42px;margin-bottom:16px;">Ready to Optimize Your Nutrition?</h2>
+            <p>Get your personalized macros now. Free. No sign-up needed.</p>
+            <button class="cta-button" onclick="showCalc()">Get Started Free →</button>
         </div>
     </section>
-
-    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 MacroCalc Pro. All rights reserved. | <a href="#" style="color: #06b6d4; text-decoration: none;">Privacy</a> | <a href="#" style="color: #06b6d4; text-decoration: none;">Terms</a></p>
-            <p style="margin-top: 15px; font-size: 12px;">MacroCalc is a free calculator tool. Always consult a qualified nutritionist or healthcare provider before making significant dietary changes.</p>
+            <p>&copy; 2026 MacroCalc Pro. All rights reserved. | <a href="#" style="color:#06b6d4;text-decoration:none;">Privacy Policy</a> | <a href="#" style="color:#06b6d4;text-decoration:none;">Terms of Use</a> | <a href="/sitemap.xml" style="color:#06b6d4;text-decoration:none;">Sitemap</a></p>
+            <p style="margin-top:12px;font-size:12px;">MacroCalc Pro is a free macro calculator tool using the Mifflin-St Jeor equation. Covers keto, bodybuilding, fat loss, CrossFit, endurance, vegan, athletic performance and general fitness. Always consult a qualified nutritionist or healthcare provider before making significant dietary changes.</p>
         </div>
     </footer>
+</div>
+
+<!-- CALCULATOR -->
+<div id="calc-section">
+    <div class="container">
+        <button class="back-btn" onclick="showLanding()">← Back to home</button>
+
+        <!-- STEP 1: Niche -->
+        <div id="step1" class="calc-step active">
+            <h2 class="step-title">Choose Your Fitness Niche</h2>
+            <p class="step-subtitle">Select the goal that best describes what you're training for</p>
+            <div class="niche-grid">
+                <button class="niche-btn" onclick="selectNiche('keto','🥑','Keto Diet')"><span class="emoji">🥑</span><span class="name">Keto Diet</span><span class="desc">High fat, very low carb</span></button>
+                <button class="niche-btn" onclick="selectNiche('bodybuilding','💪','Bodybuilding')"><span class="emoji">💪</span><span class="name">Bodybuilding</span><span class="desc">Maximize muscle growth</span></button>
+                <button class="niche-btn" onclick="selectNiche('fatloss','⚡','Fat Loss')"><span class="emoji">⚡</span><span class="name">Fat Loss</span><span class="desc">Lean down, keep muscle</span></button>
+                <button class="niche-btn" onclick="selectNiche('crossfit','🏋️','CrossFit')"><span class="emoji">🏋️</span><span class="name">CrossFit</span><span class="desc">High-intensity performance</span></button>
+                <button class="niche-btn" onclick="selectNiche('endurance','🏃','Endurance')"><span class="emoji">🏃</span><span class="name">Endurance</span><span class="desc">Running, cycling, triathlon</span></button>
+                <button class="niche-btn" onclick="selectNiche('vegan','🌱','Plant-Based')"><span class="emoji">🌱</span><span class="name">Plant-Based</span><span class="desc">Vegan muscle and performance</span></button>
+                <button class="niche-btn" onclick="selectNiche('athletic','⚽','Athletic Performance')"><span class="emoji">⚽</span><span class="name">Athletic Performance</span><span class="desc">Sport-specific nutrition</span></button>
+                <button class="niche-btn" onclick="selectNiche('general','✨','General Fitness')"><span class="emoji">✨</span><span class="name">General Fitness</span><span class="desc">Balanced health and fitness</span></button>
+            </div>
+        </div>
+
+        <!-- STEP 2: Form -->
+        <div id="step2" class="calc-step">
+            <h2 class="step-title">Tell Us About Yourself</h2>
+            <p class="step-subtitle">We use the Mifflin-St Jeor equation to calculate your exact needs</p>
+            <div class="form-wrap">
+                <div class="selected-badge"><span id="sel-emoji">🥑</span><span id="sel-name">Keto Diet</span></div>
+                <div class="form-grid">
+                    <div class="form-group"><label>Age (years)</label><input type="number" id="f-age" placeholder="e.g. 28" min="16" max="80"></div>
+                    <div class="form-group"><label>Gender</label><select id="f-gender"><option value="male">Male</option><option value="female">Female</option></select></div>
+                    <div class="form-group"><label>Weight (lbs)</label><input type="number" id="f-weight" placeholder="e.g. 165" min="80" max="400"></div>
+                    <div class="form-group"><label>Height (inches)</label><input type="number" id="f-height" placeholder="e.g. 65" min="48" max="84"></div>
+                    <div class="form-group full"><label>Activity Level</label>
+                        <select id="f-activity">
+                            <option value="1.2">Sedentary — desk job, little exercise</option>
+                            <option value="1.375">Light — exercise 1-3 days/week</option>
+                            <option value="1.55" selected>Moderate — exercise 3-5 days/week</option>
+                            <option value="1.725">Active — exercise 6-7 days/week</option>
+                            <option value="1.9">Very Active — physical job or 2x/day training</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="submit-btn" onclick="calcMacros()">Calculate My Macros →</button>
+            </div>
+        </div>
+
+        <!-- STEP 3: Results -->
+        <div id="step3" class="calc-step">
+            <div class="results-wrap">
+                <p class="results-niche">Your results for: <span id="r-niche"></span></p>
+                <div class="macro-cards">
+                    <div class="macro-card"><div class="m-label">Calories</div><div class="m-value" id="r-cal">0</div><div class="m-unit">kcal/day</div></div>
+                    <div class="macro-card"><div class="m-label">Protein</div><div class="m-value" id="r-pro">0</div><div class="m-unit">grams</div></div>
+                    <div class="macro-card"><div class="m-label">Carbs</div><div class="m-value" id="r-carb">0</div><div class="m-unit">grams</div></div>
+                    <div class="macro-card"><div class="m-label">Fat</div><div class="m-value" id="r-fat">0</div><div class="m-unit">grams</div></div>
+                </div>
+                <div class="result-info"><h3>Why These Macros?</h3><p id="r-exp"></p></div>
+                <div class="tip-box"><h3>💡 Top Tip for Your Niche</h3><p id="r-tip"></p></div>
+                <div class="ad-space">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8935274984783226" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+                <div class="result-btns">
+                    <button class="btn-outline" onclick="goStep(1)">← Calculate Again</button>
+                    <button class="cta-button" style="width:100%" onclick="copyResults()">Copy Results</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+var cNiche='', cEmoji='', cName='', lastR={};
+
+function showCalc(){ document.getElementById('landing-page').style.display='none'; document.getElementById('calc-section').style.display='block'; window.scrollTo(0,0); }
+function showLanding(){ document.getElementById('landing-page').style.display='block'; document.getElementById('calc-section').style.display='none'; window.scrollTo(0,0); }
+function goStep(n){ document.querySelectorAll('.calc-step').forEach(function(s){s.classList.remove('active');}); document.getElementById('step'+n).classList.add('active'); window.scrollTo(0,0); }
+
+function selectNiche(id,emoji,name){
+    cNiche=id; cEmoji=emoji; cName=name;
+    document.getElementById('sel-emoji').textContent=emoji;
+    document.getElementById('sel-name').textContent=name;
+    goStep(2);
+}
+
+function calcMacros(){
+    var age=parseFloat(document.getElementById('f-age').value);
+    var weight=parseFloat(document.getElementById('f-weight').value);
+    var height=parseFloat(document.getElementById('f-height').value);
+    var gender=document.getElementById('f-gender').value;
+    var activity=parseFloat(document.getElementById('f-activity').value);
+    if(!age||!weight||!height){alert('Please fill in all fields.');return;}
+    var wkg=weight/2.205, hcm=height*2.54;
+    var bmr=(gender==='male')?(10*wkg)+(6.25*hcm)-(5*age)+5:(10*wkg)+(6.25*hcm)-(5*age)-161;
+    var tdee=Math.round(bmr*activity);
+    var p,c,f,exp,tip;
+    if(cNiche==='keto'){
+        p=Math.round(wkg*1.8); f=Math.round((tdee*0.70)/9); c=Math.round((tdee-(p*4)-(f*9))/4); if(c<20)c=20;
+        exp='Keto macros keep carbs extremely low (under 50g) to shift your body into ketosis, where it burns fat for fuel. Fat makes up 70% of your calories, with moderate protein to preserve muscle mass.';
+        tip='Stay under 50g of carbs daily to maintain ketosis. Track net carbs (total carbs minus fibre). Electrolytes (sodium, potassium, magnesium) are critical in the first few weeks.';
+    } else if(cNiche==='bodybuilding'){
+        p=Math.round(wkg*2.2); c=Math.round((tdee*0.45)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
+        exp='Bodybuilding macros prioritize high protein (2.2g per kg of bodyweight) to maximize muscle protein synthesis. Carbs fuel your training sessions, and fat supports hormone production including testosterone.';
+        tip='Spread your protein across 4-5 meals throughout the day. Aim for 40-50g of fast-digesting protein within 30 minutes post-workout. Consistency over weeks is what builds muscle.';
+    } else if(cNiche==='fatloss'){
+        tdee=tdee-500; p=Math.round(wkg*2.2); c=Math.round((tdee*0.35)/4); f=Math.round((tdee-(p*4)-(c*4))/9); if(f<40)f=40;
+        exp='Fat loss macros include a 500 calorie daily deficit, which produces roughly 0.5kg of fat loss per week. Protein is kept high to preserve lean muscle while in a deficit. Carbs are reduced but not eliminated.';
+        tip='High protein is your best friend in a deficit — it keeps you full and protects muscle. Do not go below 1200 calories (women) or 1500 calories (men). Recalculate every 4 weeks as your weight drops.';
+    } else if(cNiche==='crossfit'){
+        p=Math.round(wkg*1.8); c=Math.round((tdee*0.50)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
+        exp='CrossFit macros balance protein for muscle repair with high carbohydrates to fuel intense, varied WODs. The metabolic demand of CrossFit is high, so carb intake is prioritized around training.';
+        tip='Time your carbs around workouts — eat fast carbs 30-60 minutes before training and within 30 minutes after. On rest days, reduce carbs slightly and increase fat to match lower energy needs.';
+    } else if(cNiche==='endurance'){
+        p=Math.round(wkg*1.4); c=Math.round((tdee*0.58)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
+        exp='Endurance macros prioritize carbohydrates as the primary fuel source for sustained aerobic exercise. At 58% of calories from carbs, your glycogen stores stay topped up for long training sessions and races.';
+        tip='Carb-load the day before long runs or events. During exercise over 60 minutes, consume 30-60g of fast carbs per hour. Chocolate milk is one of the best post-endurance recovery drinks.';
+    } else if(cNiche==='vegan'){
+        p=Math.round(wkg*2.0); c=Math.round((tdee*0.48)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
+        exp='Plant-based macros set protein slightly higher than omnivore targets to account for lower bioavailability of plant proteins. Combining different plant protein sources throughout the day covers all essential amino acids.';
+        tip='Combine legumes with grains to create complete proteins (e.g. rice and lentils, hummus and pita). Leucine is the key amino acid for muscle building — found in soy, lentils, and hemp seeds. Consider a B12 supplement.';
+    } else if(cNiche==='athletic'){
+        p=Math.round(wkg*1.7); c=Math.round((tdee*0.48)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
+        exp='Athletic performance macros balance all three macronutrients to support power output, speed, and recovery. Protein fuels repair, carbs provide quick energy for explosive movements, and fat supports long-duration stamina.';
+        tip='Periodize your nutrition — eat more carbs on hard training days, less on recovery days. Pre-game meals should be high carb, moderate protein, and low fat for easy digestion. Hydration is as important as macros.';
+    } else {
+        p=Math.round(wkg*1.6); c=Math.round((tdee*0.45)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
+        exp='General fitness macros provide a balanced nutritional foundation for overall health, moderate exercise, and body composition goals. Protein supports muscle maintenance, carbs provide energy, and fat supports essential body functions.';
+        tip='Track your macros for 2-3 weeks to build awareness without obsessing. If you are losing weight faster than 0.5kg/week, eat a little more. If slower, eat a little less. Adjust based on real results, not just numbers.';
+    }
+    if(f<30)f=30;
+    lastR={cal:tdee,p:p,c:c,f:f,name:cName};
+    document.getElementById('r-niche').textContent=cEmoji+' '+cName;
+    document.getElementById('r-cal').textContent=tdee;
+    document.getElementById('r-pro').textContent=p;
+    document.getElementById('r-carb').textContent=c;
+    document.getElementById('r-fat').textContent=f;
+    document.getElementById('r-exp').textContent=exp;
+    document.getElementById('r-tip').textContent=tip;
+    goStep(3);
+}
+
+function copyResults(){
+    var txt='My MacroCalc Pro Results ('+lastR.name+'):\n\nDaily Calories: '+lastR.cal+' kcal\nProtein: '+lastR.p+'g\nCarbs: '+lastR.c+'g\nFat: '+lastR.f+'g\n\nCalculated at macrocalc.co.uk';
+    navigator.clipboard.writeText(txt).then(function(){alert('Results copied!');}).catch(function(){alert('Calories: '+lastR.cal+' kcal | Protein: '+lastR.p+'g | Carbs: '+lastR.c+'g | Fat: '+lastR.f+'g');});
+}
+</script>
 </body>
 </html>
