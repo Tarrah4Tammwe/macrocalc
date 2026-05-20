@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Macro Calculator | Personalized Nutrition for Any Goal | MacroCalc</title>
-    <meta name="description" content="Get personalized macronutrient targets for weight loss, muscle building, athletic performance, wellness, and maintenance. Free macro calculator using science-backed Mifflin-St Jeor equation. Instant results. No sign-up.">
-    <meta name="keywords" content="macro calculator, free macro calculator, macronutrient calculator, TDEE calculator, protein calculator, calorie calculator, personalized nutrition, fitness nutrition, muscle building, weight loss, nutrition planning">
+    <title>Macro + Micronutrient Calculator | Personalized Nutrition</title>
+    <meta name="description" content="Get personalized macronutrient AND micronutrient targets including fiber, iron, magnesium, potassium, omega-3, and vitamin D. Free macro calculator with full micronutrient assessment. Instant results. No sign-up.">
+    <meta name="keywords" content="macro calculator, micronutrient calculator, fiber calculator, TDEE calculator, protein calculator, personalized nutrition, fiber intake, magnesium, iron calculator">
     <meta name="robots" content="index, follow">
     <meta name="author" content="MacroCalc">
     <link rel="canonical" href="https://www.macrocalc.co.uk/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.macrocalc.co.uk/">
-    <meta property="og:title" content="Free Macro Calculator | Personalized Nutrition">
-    <meta property="og:description" content="Get your personalized daily protein, carbs, and fat targets in seconds. Science-backed. Free. No sign-up needed.">
+    <meta property="og:title" content="Macro + Micronutrient Calculator | Full Nutrition Personalised">
+    <meta property="og:description" content="The only free calculator that gives you macros AND micros. Fiber, iron, magnesium, potassium, omega-3, and vitamin D — all personalised to your inputs.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&h=630&fit=crop">
     <meta property="og:site_name" content="MacroCalc">
     <meta property="og:locale" content="en_GB">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Free Macro Calculator | Personalized Nutrition">
-    <meta name="twitter:description" content="Get your personalized daily macro targets instantly. Science-backed. Free.">
+    <meta name="twitter:title" content="Macro + Micronutrient Calculator">
+    <meta name="twitter:description" content="Personalized macros AND micros in seconds. Free. The only calculator that covers fiber and essential micronutrients.">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&h=630&fit=crop">
     <script type="application/ld+json">
     {
@@ -26,7 +26,7 @@
       "@type": "WebApplication",
       "name": "MacroCalc",
       "url": "https://www.macrocalc.co.uk",
-      "description": "Free personalized macro calculator for weight loss, muscle building, athletic performance, and wellness.",
+      "description": "Free personalized macro and micronutrient calculator for any fitness goal.",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "Any",
       "offers": {
@@ -36,28 +36,21 @@
       }
     }
     </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "How accurate is this macro calculator?", "acceptedAnswer": {"@type": "Answer", "text": "Our calculator uses the Mifflin-St Jeor equation, the gold standard for estimating daily caloric needs. Individual results vary based on metabolism, genetics, and training history. We recommend tracking for 2-3 weeks and adjusting based on real outcomes."}},
-        {"@type": "Question", "name": "How often should I recalculate my macros?", "acceptedAnswer": {"@type": "Answer", "text": "Every 4-8 weeks, or whenever your weight changes by 5% or more. Your body adapts as you train, so your caloric needs shift. A monthly check-in keeps you on track."}},
-        {"@type": "Question", "name": "Do I need to count macros strictly?", "acceptedAnswer": {"@type": "Answer", "text": "No. Think of these as targets, not rules. Most people find macro awareness helpful without obsessive tracking. Hitting them within 10g is effective for most goals."}},
-        {"@type": "Question", "name": "Why does my goal matter for macros?", "acceptedAnswer": {"@type": "Answer", "text": "Different goals have different nutritional demands. Weight loss needs high protein with a calorie deficit. Muscle building needs surplus calories and very high protein. Athletic performance needs carbs timed around training. One-size-fits-all doesn't work."}}
-      ]
-    }
-    </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8935274984783226" crossorigin="anonymous"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); color: #fff; line-height: 1.6; }
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-        header { padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        header { padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; }
         .logo { font-size: 28px; font-weight: bold; background: linear-gradient(135deg, #10b981, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .header-actions { display: flex; gap: 12px; }
+        .bookmark-btn { background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.4); color: #10b981; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.3s; }
+        .bookmark-btn:hover { background: rgba(16,185,129,0.25); border-color: #10b981; }
+        .bookmark-btn.bookmarked { background: #10b981; color: white; }
         .hero { padding: 80px 0; text-align: center; }
         .hero h1 { font-size: 64px; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }
-        .hero p { font-size: 22px; color: #cbd5e1; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .hero p { font-size: 22px; color: #cbd5e1; margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .micro-badge { display: inline-block; background: rgba(16,185,129,0.1); border: 1px solid rgba(16,185,129,0.4); color: #10b981; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-top: 10px; }
         .cta-button { display: inline-block; background: linear-gradient(135deg, #10b981, #06b6d4); color: white; padding: 16px 48px; border-radius: 8px; font-size: 18px; font-weight: 600; border: none; cursor: pointer; text-decoration: none; transition: all 0.3s; box-shadow: 0 10px 30px rgba(16,185,129,0.3); }
         .cta-button:hover { transform: translateY(-2px); box-shadow: 0 15px 40px rgba(16,185,129,0.4); }
         .features { padding: 80px 0; background: rgba(30,41,59,0.5); margin: 60px 0; border-radius: 16px; }
@@ -113,40 +106,63 @@
         .macro-card .m-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.75); margin-bottom: 8px; }
         .macro-card .m-value { font-size: 38px; font-weight: 800; color: white; line-height: 1; }
         .macro-card .m-unit { font-size: 12px; color: rgba(255,255,255,0.65); margin-top: 5px; }
+        .micro-section { background: rgba(30,41,59,0.8); border: 1px solid rgba(6,182,212,0.3); border-radius: 14px; padding: 28px; margin-bottom: 24px; }
+        .micro-section h3 { color: #06b6d4; font-size: 16px; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+        .micro-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+        .micro-card { background: rgba(15,23,42,0.6); border: 1px solid rgba(6,182,212,0.2); padding: 16px; border-radius: 10px; text-align: center; }
+        .micro-card .mc-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #94a3b8; margin-bottom: 6px; }
+        .micro-card .mc-value { font-size: 24px; font-weight: 800; color: #06b6d4; line-height: 1; }
+        .micro-card .mc-unit { font-size: 11px; color: #cbd5e1; margin-top: 4px; }
         .result-info { background: rgba(30,41,59,0.8); border: 1px solid rgba(16,185,129,0.2); border-radius: 14px; padding: 28px; margin-bottom: 24px; }
         .result-info h3 { color: #10b981; font-size: 16px; margin-bottom: 12px; }
         .result-info p { color: #cbd5e1; line-height: 1.8; font-size: 15px; }
         .tip-box { background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.3); border-radius: 12px; padding: 20px; margin-bottom: 30px; }
         .tip-box h3 { color: #10b981; font-size: 15px; margin-bottom: 8px; }
         .tip-box p { color: #cbd5e1; font-size: 14px; line-height: 1.7; }
+        .upgrade-card { background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(16,185,129,0.05)); border: 2px solid rgba(6,182,212,0.3); border-radius: 14px; padding: 28px; margin-bottom: 30px; text-align: center; }
+        .upgrade-card h3 { color: #06b6d4; font-size: 18px; margin-bottom: 8px; }
+        .upgrade-card p { color: #cbd5e1; margin-bottom: 16px; font-size: 15px; }
+        .upgrade-card .price { font-size: 32px; font-weight: 800; color: #06b6d4; margin-bottom: 6px; }
+        .upgrade-card .desc { font-size: 13px; color: #94a3b8; margin-bottom: 16px; }
+        .upgrade-btn { display: inline-block; background: linear-gradient(135deg, #06b6d4, #10b981); color: white; padding: 14px 32px; border-radius: 8px; font-size: 15px; font-weight: 700; border: none; cursor: pointer; transition: all 0.3s; }
+        .upgrade-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(6,182,212,0.3); }
         .result-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
         .btn-outline { padding: 13px; background: rgba(51,65,85,0.8); border: 1px solid rgba(16,185,129,0.3); color: white; border-radius: 8px; cursor: pointer; font-size: 15px; font-weight: 600; transition: all 0.3s; }
         .btn-outline:hover { border-color: #10b981; background: rgba(16,185,129,0.1); }
+        .warning-box { background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); border-radius: 12px; padding: 16px; margin-bottom: 20px; }
+        .warning-box p { color: #fca5a5; font-size: 14px; line-height: 1.6; }
+        .warning-box strong { color: #fecaca; }
         @media (max-width: 768px) {
             .hero h1 { font-size: 38px; }
             .hero p { font-size: 17px; }
             .macro-cards { grid-template-columns: repeat(2, 1fr); }
+            .micro-cards { grid-template-columns: repeat(2, 1fr); }
             .form-grid { grid-template-columns: 1fr; }
             .form-group.full { grid-column: 1; }
             .result-btns { grid-template-columns: 1fr; }
             .niche-grid { grid-template-columns: repeat(2, 1fr); }
+            header { flex-direction: column; gap: 12px; }
         }
     </style>
 </head>
 <body>
 
 <header>
-    <div class="container">
+    <div style="display:flex; width:100%; justify-content: space-between; align-items: center;">
         <div class="logo">MacroCalc</div>
+        <div class="header-actions">
+            <button class="bookmark-btn" id="bookmark-btn" onclick="toggleBookmark()">📌 Bookmark</button>
+        </div>
     </div>
 </header>
 
 <div id="landing-page">
     <section class="hero">
         <div class="container">
-            <h1>Your Nutrition, Personalised</h1>
-            <p>Get personalized macronutrient targets in seconds. Free. Science-backed. Tailored to your specific goals.</p>
-            <button class="cta-button" onclick="showCalc()">Calculate Your Macros →</button>
+            <h1>Your Nutrition, Fully Personalised</h1>
+            <p>Get personalized macronutrient AND micronutrient targets in seconds. Free. Science-backed. The only calculator that covers macros, fiber, and essential micronutrients.</p>
+            <span class="micro-badge">🥬 Includes Fiber, Iron, Magnesium & More</span><br>
+            <button class="cta-button" onclick="showCalc()" style="margin-top: 20px;">Calculate Your Full Nutrition →</button>
         </div>
     </section>
     <div class="container">
@@ -157,20 +173,20 @@
     </div>
     <section class="features">
         <div class="container">
-            <h2>Why Personalised Macros Matter</h2>
+            <h2>Why Full Nutrition Personalisation Matters</h2>
             <div class="features-grid">
-                <div class="feature-card"><div class="feature-icon">🎯</div><h3>Your Exact Targets</h3><p>Not ranges or estimates — your precise daily calories, protein, carbs, and fat for YOUR specific goal</p></div>
-                <div class="feature-card"><div class="feature-icon">📊</div><h3>Science-Backed</h3><p>Based on the Mifflin-St Jeor equation, the gold standard in nutrition science used by sports dietitians</p></div>
-                <div class="feature-card"><div class="feature-icon">⚡</div><h3>Instant Results</h3><p>Get your customized macros in seconds, not hours of research or guesswork</p></div>
-                <div class="feature-card"><div class="feature-icon">🆓</div><h3>Completely Free</h3><p>No sign-up, no email required, no hidden costs. Just your macros, instantly available</p></div>
-                <div class="feature-card"><div class="feature-icon">🎓</div><h3>Implementation Tips</h3><p>We don't just give you numbers — we explain WHY and HOW to hit your targets with real strategies</p></div>
-                <div class="feature-card"><div class="feature-icon">🌍</div><h3>Works With Any Diet</h3><p>Vegan, keto, carnivore, Mediterranean — your macro targets stay the same. You choose the foods that fit them</p></div>
+                <div class="feature-card"><div class="feature-icon">🎯</div><h3>Macros + Micros</h3><p>Not just calories and protein — get fiber, iron, magnesium, potassium, omega-3, and vitamin D all personalised to YOU</p></div>
+                <div class="feature-card"><div class="feature-icon">🌾</div><h3>Fiber Targets</h3><p>The micronutrient everyone's missing. We calculate your exact daily fiber need based on your calorie intake</p></div>
+                <div class="feature-card"><div class="feature-icon">📊</div><h3>Science-Backed</h3><p>Based on NHS, WHO, and RDA guidelines — the same standards used by nutritionists and healthcare providers</p></div>
+                <div class="feature-card"><div class="feature-icon">⚡</div><h3>Instant Results</h3><p>Get your full nutrition profile in seconds, not hours of research or guesswork</p></div>
+                <div class="feature-card"><div class="feature-icon">🆓</div><h3>Completely Free</h3><p>No sign-up, no email required, no hidden costs. Get your personalised nutrition free</p></div>
+                <div class="feature-card"><div class="feature-icon">🎓</div><h3>Food Sources Included</h3><p>Premium users get a personalised guide showing exactly which foods hit their targets</p></div>
             </div>
         </div>
     </section>
     <section class="niches">
         <div class="container">
-            <h2>We Cover All Fitness Goals</h2>
+            <h2>Works With Any Fitness Goal</h2>
             <div class="niches-grid">
                 <div class="niche-badge"><div class="icon">⬇️</div><p>Weight Loss</p></div>
                 <div class="niche-badge"><div class="icon">💪</div><p>Muscle Building</p></div>
@@ -186,23 +202,23 @@
     <section class="faq">
         <div class="container">
             <h2>Common Questions</h2>
-            <div class="faq-item"><h3>How accurate is this calculator?</h3><p>We use the Mifflin-St Jeor equation, the gold standard for estimating daily caloric needs. Your personal accuracy depends on your metabolism, genetics, and training history. We recommend tracking for 2–3 weeks and adjusting based on real outcomes — that's where true personalisation happens.</p></div>
-            <div class="faq-item"><h3>Why don't my macros match someone else's?</h3><p>Because you're different. A 60kg runner and a 100kg lifter need completely different amounts. Two people with the same weight but different activity levels also differ significantly. Generic advice fails because it ignores these differences. Personal calculation doesn't.</p></div>
-            <div class="faq-item"><h3>How often should I recalculate?</h3><p>Every 4–8 weeks, or whenever your weight changes by 5% or more. Your body adapts as you train, so your caloric needs shift. A monthly check-in keeps you on track for long-term goals.</p></div>
-            <div class="faq-item"><h3>Do I need to count macros strictly?</h3><p>No. Think of these as targets, not rules. Most people find macro awareness helpful without obsessive tracking. Even hitting them within 10g is effective. The goal is awareness and consistency, not perfection.</p></div>
+            <div class="faq-item"><h3>Why do micronutrients matter?</h3><p>Most people focus on macros and completely miss micronutrients — the minerals and vitamins your body needs to function. Fiber affects digestion and satiety. Iron affects energy. Magnesium affects sleep and muscle recovery. Getting these right transforms how you actually feel, not just how you look.</p></div>
+            <div class="faq-item"><h3>Why is fiber so important?</h3><p>Fiber is the micronutrient everybody needs but almost nobody gets. It regulates blood sugar, feeds your gut bacteria, keeps you full longer, and reduces disease risk. Most people eat 10–15g when they need 25–40g. Getting your personal fiber target makes a real difference.</p></div>
+            <div class="faq-item"><h3>How accurate are these calculations?</h3><p>We use science-backed formulas (Mifflin-St Jeor for calories, RDA/WHO guidelines for micros). Your personal accuracy depends on metabolism, genetics, and tracking consistency. We recommend tracking for 2–3 weeks and adjusting based on real outcomes — that's where true personalisation happens.</p></div>
+            <div class="faq-item"><h3>Do I need to count everything strictly?</h3><p>No. Think of these as targets, not rules. Most people find macro and micro awareness helpful without obsessive tracking. Hitting them within 10g is effective for most goals. The goal is awareness and consistency, not perfection.</p></div>
         </div>
     </section>
     <section class="hero">
         <div class="container">
-            <h2 style="font-size:42px;margin-bottom:16px;">Ready to Optimise Your Nutrition?</h2>
-            <p>Get your personalised macros now. Free. No sign-up needed.</p>
+            <h2 style="font-size:42px;margin-bottom:16px;">Ready to Understand Your Full Nutrition?</h2>
+            <p>Get your personalised macros and micros now. Free. No sign-up needed.</p>
             <button class="cta-button" onclick="showCalc()">Get Started Free →</button>
         </div>
     </section>
     <footer>
         <div class="container">
-            <p>&copy; 2026 MacroCalc. All rights reserved. | <a href="#" style="color:#10b981;text-decoration:none;">Privacy Policy</a> | <a href="#" style="color:#10b981;text-decoration:none;">Terms of Use</a> | <a href="/sitemap.xml" style="color:#10b981;text-decoration:none;">Sitemap</a></p>
-            <p style="margin-top:12px;font-size:12px;">MacroCalc is a free macro calculator tool using the Mifflin-St Jeor equation. Covers weight loss, muscle building, athletic performance, plant-based nutrition, keto, CrossFit, endurance, and general wellness. Always consult a qualified nutritionist or healthcare provider before making significant dietary changes.</p>
+            <p>&copy; 2026 MacroCalc. All rights reserved. | <a href="/privacy.html" style="color:#10b981;text-decoration:none;">Privacy Policy</a> | <a href="/contact.html" style="color:#10b981;text-decoration:none;">Contact</a> | <a href="/sitemap.xml" style="color:#10b981;text-decoration:none;">Sitemap</a></p>
+            <p style="margin-top:12px;font-size:12px;">MacroCalc is a free nutrition calculator covering macronutrients, fiber, iron, magnesium, potassium, omega-3, and vitamin D. Always consult a qualified nutritionist or healthcare provider before making significant dietary changes.</p>
         </div>
     </footer>
 </div>
@@ -226,7 +242,7 @@
         </div>
         <div id="step2" class="calc-step">
             <h2 class="step-title">Tell Us About Yourself</h2>
-            <p class="step-subtitle">We use the Mifflin-St Jeor equation to calculate your exact needs</p>
+            <p class="step-subtitle">We use science-backed formulas to calculate your exact needs</p>
             <div class="form-wrap">
                 <div class="selected-badge"><span id="sel-emoji">⬇️</span><span id="sel-name">Weight Loss</span></div>
                 <div class="form-grid">
@@ -245,8 +261,23 @@
                             <option value="1.9">Very Active — physical job or 2x/day training</option>
                         </select>
                     </div>
+                    <div class="form-group full"><label>Training Type (for personalized recommendations)</label>
+                        <select id="f-training">
+                            <option value="strength">Strength Training / Resistance</option>
+                            <option value="endurance">Endurance / Cardio</option>
+                            <option value="mixed" selected>Mixed / General Fitness</option>
+                            <option value="none">No specific training</option>
+                        </select>
+                    </div>
+                    <div class="form-group full"><label>Dietary Preference</label>
+                        <select id="f-diet">
+                            <option value="omnivore" selected>Omnivore (all foods)</option>
+                            <option value="vegetarian">Vegetarian (no meat)</option>
+                            <option value="vegan">Vegan (no animal products)</option>
+                        </select>
+                    </div>
                 </div>
-                <button class="submit-btn" onclick="calcMacros()">Calculate My Macros →</button>
+                <button class="submit-btn" onclick="calcMacros()">Calculate My Full Nutrition →</button>
             </div>
         </div>
         <div id="step3" class="calc-step">
@@ -259,11 +290,36 @@
                     <div class="macro-card"><div class="m-label">Fat</div><div class="m-value" id="r-fat">0</div><div class="m-unit">grams</div></div>
                 </div>
                 <div class="result-info"><h3>Why These Macros?</h3><p id="r-exp"></p></div>
+                
+                <div id="warning-container"></div>
+                
+                <div class="micro-section">
+                    <h3>🥬 Your Micronutrient Targets</h3>
+                    <div class="micro-cards">
+                        <div class="micro-card"><div class="mc-label">Fiber</div><div class="mc-value" id="r-fiber">0</div><div class="mc-unit">grams/day</div></div>
+                        <div class="micro-card"><div class="mc-label">Iron</div><div class="mc-value" id="r-iron">0</div><div class="mc-unit">mg/day</div></div>
+                        <div class="micro-card"><div class="mc-label">Magnesium</div><div class="mc-value" id="r-mag">0</div><div class="mc-unit">mg/day</div></div>
+                        <div class="micro-card"><div class="mc-label">Potassium</div><div class="mc-value" id="r-pot">0</div><div class="mc-unit">mg/day</div></div>
+                        <div class="micro-card"><div class="mc-label">Omega-3</div><div class="mc-value" id="r-omega">0</div><div class="mc-unit">mg/day</div></div>
+                        <div class="micro-card"><div class="mc-label">Vitamin D</div><div class="mc-value" id="r-vitd">0</div><div class="mc-unit">IU/day</div></div>
+                    </div>
+                </div>
+                <div class="result-info"><h3>About Your Micronutrients</h3><p id="r-micro-exp"></p></div>
+                
                 <div class="tip-box"><h3>💡 Implementation Strategy</h3><p id="r-tip"></p></div>
                 <div class="ad-space">
                     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8935274984783226" data-ad-format="auto" data-full-width-responsive="true"></ins>
                     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
+                
+                <div class="upgrade-card">
+                    <h3>📋 Get Your Personalized Nutrition Guide</h3>
+                    <p>Food sources for every nutrient, meal examples, and a complete micronutrient breakdown</p>
+                    <div class="price">£3.99</div>
+                    <div class="desc">For the price of a sandwich, get your FULL nutrition recommendation</div>
+                    <button class="upgrade-btn" onclick="initiatePayment()">Download PDF Guide →</button>
+                </div>
+                
                 <div class="result-btns">
                     <button class="btn-outline" onclick="goStep(1)">← Calculate Again</button>
                     <button class="cta-button" style="width:100%" onclick="copyResults()">Copy Results</button>
@@ -309,62 +365,169 @@ function calcMacros(){
     var units=document.getElementById('f-units').value;
     var gender=document.getElementById('f-gender').value;
     var activity=parseFloat(document.getElementById('f-activity').value);
+    var training=document.getElementById('f-training').value;
+    var diet=document.getElementById('f-diet').value;
+    
     if(!age||!weight||!height){alert('Please fill in all fields.');return;}
     
     if(units==='imperial'){ weight=weight/2.205; height=height*2.54; }
     
     var bmr=(gender==='male')?(10*weight)+(6.25*height)-(5*age)+5:(10*weight)+(6.25*height)-(5*age)-161;
     var tdee=Math.round(bmr*activity);
-    var p,c,f,exp,tip;
+    
+    var warnings=[];
+    if(age<18) warnings.push('You\'re under 18 — consider consulting a nutritionist for personalized guidance, as your needs differ from adults.');
+    if(weight<50) warnings.push('Your weight is quite low — make sure you\'re not in an extreme deficit, especially if you\'re training hard.');
+    if(weight>150) warnings.push('At higher body weights, your calorie needs are substantial — track consistently for the first 2 weeks to calibrate.');
+    
+    var p,c,f,fiber,iron,mag,pot,omega,vitd,exp,tip,microExp;
     
     if(cNiche==='weightloss'){
         tdee=tdee-500; p=Math.round(weight*2.2); c=Math.round((tdee*0.35)/4); f=Math.round((tdee-(p*4)-(c*4))/9); if(f<40)f=40;
-        exp='Weight loss requires a 500 calorie daily deficit, which typically produces ~0.5kg of fat loss per week. High protein is critical to preserve your muscle mass while you\'re in a deficit. Carbs are reduced but not eliminated — you need them for energy and training.';
-        tip='High protein keeps you full longer and protects muscle tissue. Don\'t go below 1200 calories (women) or 1500 calories (men). Track for 2–3 weeks, then adjust: if losing too fast, eat more; if stalling, create a bigger deficit. Recalculate every 4 weeks as your weight drops.';
+        fiber=Math.round(tdee/100*14);
+        iron=(gender==='male')?8:18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        exp='Weight loss requires a 500 calorie daily deficit, which typically produces ~0.5kg of fat loss per week. High protein is critical to preserve your muscle mass while you\'re in a deficit. Carbs are reduced but not eliminated — you need them for energy and training. Fiber becomes especially important to keep you full and manage blood sugar.';
+        tip='High protein keeps you full longer and protects muscle tissue. Fiber is your secret weapon — it makes you feel fuller on fewer calories. Don\'t go below 1200 calories (women) or 1500 calories (men). Track for 2–3 weeks, then adjust. Recalculate every 4 weeks as your weight drops.';
+        microExp='Fiber is essential during weight loss — it increases satiety and helps manage hunger. Iron intake matters, especially for women, as low iron causes fatigue and weakness. Magnesium supports sleep and recovery during a deficit.';
     } else if(cNiche==='muscle'){
         tdee=tdee+300; p=Math.round(weight*2.2); c=Math.round((tdee*0.45)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
-        exp='Muscle building requires a modest calorie surplus (~300 above maintenance) plus very high protein to maximise muscle protein synthesis. Carbs fuel your training sessions and recovery. Fat supports hormone production, including testosterone.';
-        tip='Spread protein across 4–5 meals (aim for 30–50g per meal). Time carbs around workouts — eat carbs before for energy, after for recovery. Progressive overload matters as much as nutrition. Track your lifts and adjust calories if gaining too fast (>0.5kg/week).';
+        fiber=Math.round(tdee/100*14);
+        iron=(gender==='male')?8:18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        exp='Muscle building requires a modest calorie surplus (~300 above maintenance) plus very high protein to maximise muscle protein synthesis. Carbs fuel your training sessions and recovery. Fat supports hormone production, including testosterone. Fiber and micronutrients support digestion and recovery.';
+        tip='Spread protein across 4–5 meals (aim for 30–50g per meal). Time carbs around workouts — eat carbs before for energy, after for recovery. Progressive overload matters as much as nutrition. Magnesium and potassium support muscle function and prevent cramps.';
+        microExp='Magnesium and potassium are critical for muscle function and preventing cramping during intense training. Iron supports oxygen transport to muscles during workouts. Fiber aids digestion of high protein intake.';
     } else if(cNiche==='maintenance'){
         p=Math.round(weight*1.6); c=Math.round((tdee*0.45)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
-        exp='Maintenance means eating for stability — neither gaining nor losing weight. This is perfect for building consistency and establishing sustainable eating patterns without the pressure of a deficit or surplus.';
-        tip='Use this phase to build a sustainable relationship with food and exercise. Track for 2–3 weeks to understand portion sizes. If weight creeps up, create a small deficit; if it drops, add calories. This is the time to refine habits that will support future goals.';
+        fiber=Math.round(tdee/100*14);
+        iron=(gender==='male')?8:18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        exp='Maintenance means eating for stability — neither gaining nor losing weight. This is perfect for building consistency and establishing sustainable eating patterns without the pressure of a deficit or surplus. Balanced micronutrient intake supports overall health.';
+        tip='Use this phase to build a sustainable relationship with food and exercise. Track for 2–3 weeks to understand portion sizes. If weight creeps up, create a small deficit; if it drops, add calories. Focus on whole foods to naturally hit micronutrient targets.';
+        microExp='In a maintenance phase, balanced micronutrient intake is easier to achieve. Focus on variety — different colored vegetables, whole grains, and lean proteins naturally provide the full spectrum of micronutrients you need.';
     } else if(cNiche==='athletic'){
         p=Math.round(weight*1.7); c=Math.round((tdee*0.50)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
-        exp='Athletic performance requires balanced macros to support power output, speed, and recovery. Carbs are elevated to fuel intense, varied training. Protein supports muscle repair. Fat sustains long-duration efforts and hormone health.';
-        tip='Periodise your nutrition: eat more carbs on hard training days, less on recovery days. Pre-competition meals should be high carb, moderate protein, low fat for easy digestion. Hydration is as important as macros. The recovery window (first 30 mins post-training) is when nutrient timing matters most.';
+        fiber=Math.round(tdee/100*14);
+        iron=(gender==='male')?8:18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        exp='Athletic performance requires balanced macros to support power output, speed, and recovery. Carbs are elevated to fuel intense, varied training. Protein supports muscle repair. Fat sustains long-duration efforts and hormone health. Potassium and magnesium are critical for muscle function.';
+        tip='Periodise your nutrition: eat more carbs on hard training days, less on recovery days. Pre-competition meals should be high carb, moderate protein, low fat for easy digestion. Hydration is as important as macros. Electrolytes (potassium, sodium, magnesium) matter hugely.';
+        microExp='Potassium and magnesium are electrolytes crucial for athletic performance — they regulate muscle contractions and prevent cramping. Iron supports oxygen transport during endurance efforts. Omega-3s reduce inflammation and support recovery.';
     } else if(cNiche==='crossfit'){
         p=Math.round(weight*1.8); c=Math.round((tdee*0.50)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
-        exp='CrossFit macros balance high protein for muscle repair with elevated carbohydrates to fuel intense, varied WODs. The metabolic demand of CrossFit is high, so carb intake is prioritised around training.';
-        tip='Time your carbs around workouts — eat fast carbs 30–60 minutes before training and within 30 minutes after. On rest days, reduce carbs slightly and increase fat to match lower energy needs. Consistency in fueling is what separates performance gains.';
+        fiber=Math.round(tdee/100*14);
+        iron=(gender==='male')?8:18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        exp='CrossFit macros balance high protein for muscle repair with elevated carbohydrates to fuel intense, varied WODs. The metabolic demand of CrossFit is high, so carb intake is prioritised around training. Magnesium and potassium support the explosive power and recovery demands.';
+        tip='Time your carbs around workouts — eat fast carbs 30–60 minutes before training and within 30 minutes after. On rest days, reduce carbs slightly and increase fat to match lower energy needs. Magnesium supplementation or high-Mg foods (pumpkin seeds, dark chocolate) help with recovery.';
+        microExp='The high intensity of CrossFit depletes magnesium and electrolytes quickly. Potassium and magnesium are essential for explosive movements and recovery. Omega-3s help manage inflammation from intense training.';
     } else if(cNiche==='vegan'){
         p=Math.round(weight*2.0); c=Math.round((tdee*0.48)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
-        exp='Plant-based macros set protein slightly higher than omnivore targets to account for lower bioavailability of plant proteins. Combining different plant protein sources throughout the day covers all essential amino acids.';
-        tip='Combine legumes with grains to create complete proteins (e.g. rice and lentils, hummus and pita). Leucine is the key amino acid for muscle building — found in soy, lentils, and hemp seeds. Consider a B12 supplement. Variety in protein sources is your best strategy.';
+        fiber=Math.round(tdee/100*16);
+        iron=18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        warnings.push('As a vegan, iron absorption is lower from plant sources (non-heme iron). Pair iron-rich foods with vitamin C and consider a supplement. B12 supplementation is essential.');
+        exp='Plant-based macros set protein slightly higher than omnivore targets to account for lower bioavailability of plant proteins. Combining different plant protein sources throughout the day covers all essential amino acids. Fiber intake naturally runs higher on a vegan diet, which is excellent for health.';
+        tip='Combine legumes with grains to create complete proteins (e.g. rice and lentils, hummus and pita). Leucine is the key amino acid for muscle building — found in soy, lentils, and hemp seeds. B12 supplementation is non-negotiable. Track iron carefully.';
+        microExp='Plant-based diets are naturally high in fiber, which supports digestion and satiety. However, iron absorption is lower — pair iron-rich plant foods (lentils, fortified cereals) with vitamin C. B12 is not naturally available in plant foods; supplementation is essential.';
     } else if(cNiche==='wellness'){
         p=Math.round(weight*1.6); c=Math.round((tdee*0.45)/4); f=Math.round((tdee-(p*4)-(c*4))/9);
-        exp='General wellness macros provide a balanced foundation for overall health and moderate exercise. Protein supports muscle maintenance, carbs provide steady energy, fat supports essential body functions and nutrient absorption.';
-        tip='Start by tracking for 2–3 weeks to build awareness — not to be perfect, just to understand portion sizes. Adjust based on how you feel: more energy? Better performance? Less bloating? These are better guides than the scale. Consistency beats perfection every time.';
+        fiber=Math.round(tdee/100*14);
+        iron=(gender==='male')?8:18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        exp='General wellness macros provide a balanced foundation for overall health and moderate exercise. Protein supports muscle maintenance, carbs provide steady energy, fat supports essential body functions and nutrient absorption. Micronutrients are the foundation of long-term health.';
+        tip='Start by tracking for 2–3 weeks to build awareness — not to be perfect, just to understand portion sizes. Adjust based on how you feel: more energy? Better performance? Better sleep? These are better guides than the scale. Eat the rainbow to naturally hit micronutrient targets.';
+        microExp='A wellness focus means prioritizing nutrient density over pure calories. Fiber supports digestive health. Magnesium and potassium support sleep and mood. A varied diet naturally covers most micronutrient needs.';
     } else {
         p=Math.round(weight*1.8); f=Math.round((tdee*0.70)/9); c=Math.round((tdee-(p*4)-(f*9))/4); if(c<20)c=20;
-        exp='Keto macros keep carbs extremely low (under 50g) to shift your body into ketosis, where it burns fat for fuel. Fat makes up 70% of your calories, with moderate protein to preserve muscle mass.';
-        tip='Stay under 50g of carbs daily to maintain ketosis. Track net carbs (total carbs minus fibre). Electrolytes (sodium, potassium, magnesium) are critical in the first few weeks. Monitor how you feel and adjust if experiencing fatigue — keto adaptation takes 2–4 weeks.';
+        fiber=20;
+        iron=(gender==='male')?8:18;
+        mag=(gender==='male')?400:310;
+        pot=3400;
+        omega=1100;
+        vitd=600;
+        exp='Keto macros keep carbs extremely low (under 50g) to shift your body into ketosis, where it burns fat for fuel. Fat makes up 70% of your calories, with moderate protein to preserve muscle mass. Electrolytes and micronutrients become more important on keto.';
+        tip='Stay under 50g of carbs daily to maintain ketosis. Track net carbs (total carbs minus fibre). Electrolytes (sodium, potassium, magnesium) are critical in the first few weeks — supplement if you experience fatigue or headaches. Monitor how you feel and adjust if needed.';
+        microExp='On keto, electrolytes are critical — sodium, potassium, and magnesium prevent the "keto flu." Vitamin D becomes especially important as fewer foods naturally contain it. Consider a magnesium and potassium supplement in the first weeks.';
     }
+    
     if(f<30)f=30;
-    lastR={cal:tdee,p:p,c:c,f:f,name:cName};
+    lastR={cal:tdee,p:p,c:c,f:f,fiber:fiber,iron:iron,mag:mag,pot:pot,omega:omega,vitd:vitd,name:cName,training:training,diet:diet};
+    
     document.getElementById('r-niche').textContent=cEmoji+' '+cName;
     document.getElementById('r-cal').textContent=tdee;
     document.getElementById('r-pro').textContent=p;
     document.getElementById('r-carb').textContent=c;
     document.getElementById('r-fat').textContent=f;
     document.getElementById('r-exp').textContent=exp;
+    document.getElementById('r-fiber').textContent=fiber;
+    document.getElementById('r-iron').textContent=iron;
+    document.getElementById('r-mag').textContent=mag;
+    document.getElementById('r-pot').textContent=pot;
+    document.getElementById('r-omega').textContent=Math.round(omega);
+    document.getElementById('r-vitd').textContent=vitd;
+    document.getElementById('r-micro-exp').textContent=microExp;
     document.getElementById('r-tip').textContent=tip;
+    
+    var warnHtml='';
+    if(warnings.length>0){
+        warnHtml='<div class="warning-box">';
+        warnings.forEach(function(w){warnHtml+='<p>⚠️ <strong>Note:</strong> '+w+'</p>';});
+        warnHtml+='</div>';
+    }
+    document.getElementById('warning-container').innerHTML=warnHtml;
+    
     goStep(3);
 }
 
 function copyResults(){
-    var txt='My MacroCalc Results ('+lastR.name+'):\n\nDaily Calories: '+lastR.cal+' kcal\nProtein: '+lastR.p+'g\nCarbs: '+lastR.c+'g\nFat: '+lastR.f+'g\n\nCalculated at macrocalc.co.uk';
-    navigator.clipboard.writeText(txt).then(function(){alert('Results copied!');}).catch(function(){alert('Calories: '+lastR.cal+' kcal | Protein: '+lastR.p+'g | Carbs: '+lastR.c+'g | Fat: '+lastR.f+'g');});
+    var txt='My MacroCalc Results ('+lastR.name+'):\\n\\n=== MACROS ===\\nDaily Calories: '+lastR.cal+' kcal\\nProtein: '+lastR.p+'g\\nCarbs: '+lastR.c+'g\\nFat: '+lastR.f+'g\\n\\n=== MICRONUTRIENTS ===\\nFiber: '+lastR.fiber+'g\\nIron: '+lastR.iron+'mg\\nMagnesium: '+lastR.mag+'mg\\nPotassium: '+lastR.pot+'mg\\nOmega-3: '+Math.round(lastR.omega)+'mg\\nVitamin D: '+lastR.vitd+'IU\\n\\nCalculated at macrocalc.co.uk';
+    navigator.clipboard.writeText(txt).then(function(){alert('Results copied!');}).catch(function(){alert('Copy manually: Calories: '+lastR.cal+' kcal | Protein: '+lastR.p+'g | Carbs: '+lastR.c+'g | Fat: '+lastR.f+'g | Fiber: '+lastR.fiber+'g');});
+}
+
+function toggleBookmark(){
+    var btn=document.getElementById('bookmark-btn');
+    if(btn.classList.contains('bookmarked')){
+        btn.classList.remove('bookmarked');
+        btn.textContent='📌 Bookmark';
+    } else {
+        if(window.navigator && window.navigator.addToHomeScreen){
+            window.navigator.addToHomeScreen();
+        } else if(window.sidebar){
+            window.sidebar.addPanel(document.title,window.location.href,'');
+        } else {
+            btn.classList.add('bookmarked');
+            btn.textContent='✅ Bookmarked!';
+            alert('Press Ctrl+D (or Cmd+D on Mac) to bookmark this page in your browser.');
+            setTimeout(function(){btn.classList.remove('bookmarked');btn.textContent='📌 Bookmark';},3000);
+        }
+    }
+}
+
+function initiatePayment(){
+    alert('Premium PDF guide coming soon — email: contact@macrocalc.co.uk for early access.');
 }
 </script>
 <footer><p><a href="/privacy.html">Privacy Policy</a> · <a href="/contact.html">Contact</a></p></footer>
